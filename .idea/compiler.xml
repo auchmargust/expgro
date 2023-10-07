@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="grocery-express-store" />
+        <module name="client" />
+        <module name="grocery-express-common" />
+        <module name="store" />
+        <module name="customer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client" target="11" />
+      <module name="customer" target="11" />
+      <module name="grocery-express-common" target="11" />
+      <module name="grocery-express-store" target="11" />
+      <module name="groceryexpress" target="11" />
+      <module name="store" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="client" options="-parameters" />
+      <module name="customer" options="-parameters" />
+      <module name="grocery-express-common" options="-parameters" />
+      <module name="grocery-express-store" options="-parameters" />
+      <module name="groceryexpress" options="" />
+      <module name="store" options="-parameters" />
+    </option>
+  </component>
+</project>

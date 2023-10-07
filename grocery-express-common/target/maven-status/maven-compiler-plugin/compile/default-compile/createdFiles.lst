@@ -1,0 +1,11 @@
+edu/gatech/cs6310/domain/Coupon.class
+edu/gatech/cs6310/domain/Item.class
+edu/gatech/cs6310/domain/OrderLine.class
+edu/gatech/cs6310/domain/Order.class
+edu/gatech/cs6310/domain/User.class
+edu/gatech/cs6310/domain/Store.class
+edu/gatech/cs6310/domain/FuelingStation.class
+edu/gatech/cs6310/domain/Drone.class
+edu/gatech/cs6310/domain/Customer.class
+edu/gatech/cs6310/domain/DronePilot.class
+edu/gatech/cs6310/domain/Employee.class
